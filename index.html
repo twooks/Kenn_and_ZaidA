@@ -9,37 +9,48 @@
   <body>
     <header>frecodecamp survey form</header>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <p id="description"> thank you for taking the time to help Microverse improve</p>
+    <p id="description"> thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
         <div class="input-element">
             <label id="name-label">
                 Name
             </label>
-            <input placeholder="name" id="name" type="text" required>
+            <input placeholder="Enter your name" id="name" type="text" required>
         </div>
         <div class="input-element">
             <label id="email-label">
                 Email
             </label>
+            <input placeholder="Enter your email" id="email" type="email" required>
         </div>
-            <input placeholder="email" id="email" type="email" required>
+            
             <div class="input-element">
-                <label id="number-label">
-                    Name
+                <label id="age-label">
+                    Age(optional)
                 </label>
-                <input placeholder="age" id="number" min="5" max="100" type="number" required>
+                <input placeholder="Age" id="number" min="5" max="100" type="number" required>
             </div>
+            <P>which option best describes your current role?</P>
                 <div class="input-element">
                 <label id="select-label">
-                    What is your favorite part of Microverse?
+                  <input placeholder="select current role">
                     <select>
-                        <option>HackerRank Stage</option>
-                        <option>Introduction Stage</option>
-                        <option>Trials Stage</option>
+                        <option>Full time job</option>
+                        <option>Student</option>
+                        <option>Other</option>
 
                     </select>
                 </div>
+                
                 <div>
+                  <P>would you recommend freeCodeCamp to 
+                    a friend?</P>
+                    <label>
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+      
+                    </label>
                     <label>Have you being to any BootCamp before?</label>
                     <div>
                         <label><input type="radio" name="BootCamp" value="Yes"/>Yes</label>
