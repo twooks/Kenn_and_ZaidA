@@ -1,36 +1,44 @@
 
-header {
+h1 {
     font-weight: 400;
-    font-size: medium;
+    line-height: 1.1;
 }
 
-#body {
-    background-color: lightblue;
-    text-align: center;
+ body {
+    color: white;
+    line-height:1.4;
+    font-weight: 400;
+    font-size: 1;
+    margin: 0;
   }
-#form {
-    max-width: 500px;
-    text-align: left;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
+form {
+    background-color: darkblue;
+    padding: 20px 15px;
+    border-radius:0.25;
+    
   }
-#input {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
+  .form-type{
+    padding: 0.5rem;
+    margin: 0 auto 1.2 auto;
+
+  }
+.input-textarea {
+    width: 100%;
+    padding: 0.5%;
 }
-.input-element {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+.input-radio, .input-checkbox {
+    display: inline-block;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
 }
-#select{
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
+.submit-button {
+    width: 100%;
+    padding: 0.75 rem;
+    border-radius: 2px;
+    display: block;
+
 }
-#input[type="checkbox"]{
-    width: 15px;
-    height: 15px;
+.header {
+    padding:0 0.25;
+    margin-bottom: 2rem;
 }
