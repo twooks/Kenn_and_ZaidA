@@ -26,7 +26,7 @@
         </div>
             
             <div class="form-type">
-                <label id="age-label">
+                <label id="age-label" for="number">Age<span (optional)</span></span>
                     Age(optional)
                 </label>
                 <input placeholder="Age" id="number" min="5" max="100" type="number" required>
@@ -67,11 +67,12 @@
                   </div>
                   <div class="form-type">
                     <p>what is your favorite feature of freeCodeCamp?</p>
-                    <select name="mostlike" id="most" class="form-control"required>
-                      <option value="challenges"></option>
-                      <option value="projects"></option>
-                      <option value="community"></option>
-                      <option value="openSource"></option>
+                    <select name="feature" id="feature" class="form-control"required>
+                      <option disabled selected value="select an option"></option>
+                      <option value="challenges">Challenges</option>
+                      <option value="projects">Projects</option>
+                      <option value="community">Community</option>
+                      <option value="openSource">Open Source</option>
 
                     </select>
                   </div>
@@ -82,16 +83,14 @@
                       Front-end projects
                     </label>
                     <label >
-                      <input value="back-end-projects" type="check
-                      " class="input-checkbox"/>Back-end projects
+                      <input value="back-end-projects" type="checkbox" class="input-checkbox"/>Back-end projects
                     </label>
                     <label >
                       <input value="data-visualization" type="checkbox" class="input-checkbox"/>
                       Data Visualization
                     </label>
                     <label >
-                      <input value="challenges" type="che
-                      " class="input-checkbox"/>Challenges
+                      <input value="challenges" type="checkbox" class="input-checkbox"/>Challenges
                     </label>
                     <label >
                       <input value="open-source-community" type="checkbox" class="input-checkbox"/>
